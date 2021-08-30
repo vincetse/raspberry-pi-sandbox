@@ -8,3 +8,4 @@ RUN apk update && \
     openssh \
     vim && \
   uname -a
+RUN apk add curl
